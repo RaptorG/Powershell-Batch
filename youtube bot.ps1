@@ -14,3 +14,9 @@ While ($loop -eq 0)
     Get-Process | Where Name –Like “chrome*” | Stop-Process 
     # ends the chrome process to do it all again!!!
     }
+    
+    
+   # This script runs in powershell. If you have never used powershell you may get a permission error.
+   # If you get a permission error run this command
+   # Set-ExecutionPolicy Unrestricted    In a power shell window
+   # This script also required you have google chrome installed, and you are running windows 
