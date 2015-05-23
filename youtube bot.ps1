@@ -20,3 +20,4 @@ While ($loop -eq 0)
    # If you get a permission error run this command
    # Set-ExecutionPolicy Unrestricted    In a power shell window
    # This script also required you have google chrome installed, and you are running windows 
+   # just save this file as a .ps1 file, and right click run with powershell
